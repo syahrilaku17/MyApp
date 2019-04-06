@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            >
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="10dp"
+                  android:layout_marginRight="10dp"
+                  android:background="#523114"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Hai"
+                  android:textColor="#FFF"
+                  android:textStyle="bold"
+                  android:textSize="50dp"
+                  android:textAlignment="center"
+                  android:fontFamily="sans-serif-medium"
+                  android:paddingTop="75dp"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Meet Me At"
+                  android:textColor="#FFF"
+                  android:textStyle="bold"
+                  android:textSize="50dp"
+                  android:textAlignment="center"
+                  android:fontFamily="sans-serif-medium"
+                  android:paddingBottom="50dp"
+        />
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:padding="10dp"
+                      android:layout_margin="20dp"
+                      android:background="@drawable/radius"
+
+
+        >
+            <ImageButton
+                    android:id="@+id/btn-twitter"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/twitter"
+
+            />
+            <ImageButton
+                    android:id="@+id/btn-facebook"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/facebook_box"
+
+            />
+            <ImageButton
+                    android:id="@+id/btn-instagram"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/instagram"
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageButton
+            android:id="@+id/btn-github"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/github_circle"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#523114"
+                  android:layout_margin="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textAlignment="center"
+
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="SYAHRIL IRFANI FATTAH"
+                  android:textColor="#FFF"
+                  android:textSize="30dp"
+                  android:textAlignment="center"
+                  android:gravity="center"
+                  android:padding="50dp"
+                  android:textStyle="bold"
+                  android:fontFamily=""
+        />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
